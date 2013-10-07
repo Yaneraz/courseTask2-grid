@@ -1,0 +1,128 @@
+// Basic site configuration
+$whiteColor: #fff;
+
+/* ==== [ icons ] ==== */
+.ico {
+	display:inline-block;
+	vertical-align:top;
+}
+.ico_pencil {
+	@include s(pencil);
+}
+
+/* ==== [ hdr ] ==== */
+.hdr {
+	@extend %clr;
+	background:#353c3e;
+
+	.hdr__slogan {
+		font-size:13px;
+		text-align:right;
+		margin-top:35px;
+		color:#959595;
+	}
+}
+
+/* ==== [ logo ] ==== */
+.logo {
+	margin-bottom:-4px;
+
+	.logo__body {
+		position:relative;
+		display:inline-block;
+		vertical-align:top;
+		height:82px;
+		width:74px;
+		margin-right:15px;
+		background:#f26c4f;
+		border-bottom:2px solid #d04e33;
+
+		.ico {
+			position:absolute;
+			top:50%;
+			left:50%;
+			margin:-12px 0 0 -12px;
+		}
+	}
+
+	.logo__ttl {
+		font-size:24px;
+		font-weight:bold;
+		display:inline-block;
+		vertical-align:top;
+		margin-top:24px;
+		text-transform:uppercase;
+		color:$whiteColor;
+	}
+}
+
+/* ==== [ menu ] ==== */
+.menu {
+	background:#40494c;
+
+	.menu__list {
+		margin-top:22px;
+		list-style:none;
+	}
+	.menu__list-item {
+		font-size:13px;
+		display:inline-block;
+		vertical-align:top;
+		margin-right:23px;
+		text-transform:uppercase;
+
+		a {
+			text-decoration:none;
+			color:#717b7e;
+
+			&:hover,
+			&.is-active { color:$whiteColor;}
+		}
+	}
+}
+
+/* ==== [ input ] ==== */
+.input-i {
+	position:relative;
+	display:block;
+
+	.input {
+		font-size:13px;
+		position:relative;
+		width:100%;
+		padding:23px 20px;
+		color:$whiteColor;
+		background:#3c4345;
+		border:0;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+		text-transform:uppercase;
+		outline:0;
+
+		@include placeholder-color(#717b7e);
+	}
+}
+
+.input-search {
+	.row & { float:right;}
+
+	&:after {
+		content:"";
+		position:absolute;
+		top:20px;
+		right:26px;
+
+		@include s(search);
+	}
+}
+
+
+
+.submit {
+	display:block;
+	appearance:none;
+	opacity:0;
+	height:0;
+	width:0;
+}
