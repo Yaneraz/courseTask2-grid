@@ -16,6 +16,7 @@ body { font-family: Montserrat, Arial,sans-serif; font-weight: normal; font-size
 a img, fieldset { border: none; }
 
 .l-case { margin: 0 auto; max-width: 960px; }
+.l-case > .row { margin: 0 2%; }
 
 .row .span1, .row .span2, .row .span3, .row .span4, .row .span5, .row .span6, .row .span7, .row .span8, .row .span9, .row .span10, .row .span11, .row .span12 { float: left; margin-left: 2%; }
 .row .span1 { width: 6.5%; }
