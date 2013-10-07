@@ -1,3 +1,3 @@
-Task#2-responsive (sass,scss) by Roman Pavlyuk
+Task#2-grid (sass,scss) by Roman Pavlyuk
 
 
