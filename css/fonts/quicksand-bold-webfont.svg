@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata></metadata>
+<defs>
+<font id="quicksandbold" horiz-adv-x="1269" >
+<font-face units-per-em="2048" ascent="1638" descent="-410" />
+<missing-glyph horiz-adv-x="614" />
+<glyph horiz-adv-x="0" />
+<glyph unicode="&#xd;" horiz-adv-x="2048" />
+<glyph unicode=" "  horiz-adv-x="614" />
+<glyph unicode="&#x09;" horiz-adv-x="614" />
+<glyph unicode="&#xa0;" horiz-adv-x="614" />
+<glyph unicode="&#x3c;" d="M123 711q0 1 1 5t1 5v14q0 2 2 4.5t2 3.5q1 3 2 8.5t2 8.5q0 1 1 2t1 2q2 2 5 9t5 9q1 4 5 4q5 10 12 15l575 583q38 37 93 37t92 -37q38 -38 38 -92t-38 -92l-486 -489l486 -490q38 -40 38 -93t-38 -91q-40 -37 -91 -37q-54 0 -94 37l-575 584q-7 2 -10 12l-7 4 q-1 2 -6 16q-6 3 -6 9q-1 2 -2 6.5t-2 5.5q0 4 -2 7l-2 3v14q0 2 -1 6t-1 7z" />
+<glyph unicode="&#x3e;" d="M195 128q0 53 38 93l486 490l-486 489q-38 38 -38 92t38 92q37 37 92 37t93 -37l575 -583q3 -2 5.5 -4.5t5.5 -6t4 -4.5l2 -4q2 -3 5.5 -9t4.5 -9q0 -1 1 -2t1 -2t2 -7.5t4 -11.5q0 -1 1 -2.5t1 -3.5v-14q0 -1 1 -5t1 -5t-1 -5.5t-1 -5.5v-16q0 -1 -1 -2t-1 -2 q-2 -4 -3.5 -10t-2.5 -8q0 -1 -1 -3t-1 -4q-1 -1 -4.5 -7t-5.5 -11q0 -2 -2 -2q-12 -12 -15 -14l-575 -584q-37 -37 -92 -37q-53 0 -93 37q-38 38 -38 91z" />
+<glyph unicode="&#x2000;" horiz-adv-x="710" />
+<glyph unicode="&#x2001;" horiz-adv-x="1421" />
+<glyph unicode="&#x2002;" horiz-adv-x="710" />
+<glyph unicode="&#x2003;" horiz-adv-x="1421" />
+<glyph unicode="&#x2004;" horiz-adv-x="473" />
+<glyph unicode="&#x2005;" horiz-adv-x="355" />
+<glyph unicode="&#x2006;" horiz-adv-x="236" />
+<glyph unicode="&#x2007;" horiz-adv-x="236" />
+<glyph unicode="&#x2008;" horiz-adv-x="177" />
+<glyph unicode="&#x2009;" horiz-adv-x="284" />
+<glyph unicode="&#x200a;" horiz-adv-x="78" />
+<glyph unicode="&#x202f;" horiz-adv-x="284" />
+<glyph unicode="&#x205f;" horiz-adv-x="355" />
+<glyph unicode="&#xe000;" horiz-adv-x="1013" d="M0 0v1014h1014v-1014h-1014z" />
+</font>
+</defs></svg> 

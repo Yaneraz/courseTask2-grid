@@ -8,6 +8,11 @@
 	<link rel="stylesheet" media="screen" href="css/screen.css" >
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<!--<script src="js/app.js"></script>-->
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.cycle2.min.js"></script>
+	<script src="js/jquery.cycle2.tile.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/htmlStateSwitcher.js"></script>
 </head>
 <body>
 
@@ -27,7 +32,7 @@
             </div>
         </div>
     </div>
-    <div class="menu">
+    <div class="menu" data-htmlstate="normal image-slider blog">
         <div class="l-case">
             <div class="l-case__inner row">
                 <div class="span9 menu__list-holder">
@@ -51,6 +56,37 @@
         </div>
     </div>
 
+    <div class="slider" data-htmlstate="image-slider">
+        <div class="l-case">
+            <div class="slider__inner">
+                <div class="slider__slide row cycle-slideshow"
+                    data-cycle-timeout=0
+                    data-cycle-prev=".slider__nav-left"
+                    data-cycle-next=".slider__nav-right"
+                >
+                    <img src="img/slider-img-1.jpg" alt=""/>
+                    <img src="img/slider-img-2.jpg" alt=""/>
+                    <img src="img/slider-img-3.jpg" alt=""/>
+                </div>
+                <!-- I'm too old for this shit, I'll make it as an image
+                <div class="slider__slide">
+                    <div class="slider__txt span7">
+                        <div class="span8 slider__txt-inner">
+                            <div class="slider__ttl">Graphic Designer & Illustrator <span class="g-orange">Create/tor</span></div>
+                            <div class="slider__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis laoreet laoreet leo at dictum.</div>
+                        </div>
+                    </div>
+                </div>
+                -->
+            </div>
+
+            <div class="slider__nav">
+                <span class="slider__nav-left"><i class="glyph-ico glyph-ico_big">&lt;</i></span>
+                <span class="slider__nav-right"><i class="glyph-ico glyph-ico_big">&gt;</i></span>
+            </div>
+        </div>
+    </div>
+
     <div class="textblock l-case">
         <div class="row">
             <div class="textblock__ttl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur nisi a dolor iaculis id viverra lectus facilisis. Curabitur diam tellus,</div>
@@ -60,6 +96,10 @@
 
     <div class="columns">
         <div class="l-case">
+            <div class="columns__nav">
+                <a href="#" class="glyph-ico glyph-ico_disabled">&lt;</a>
+                <a href="#" class="glyph-ico">&gt;</a>
+            </div>
             <div class="row">
                 <div class="span3">
                     <div class="post post_empty">
@@ -98,7 +138,50 @@
         </div>
     </div>
 
-    <div class="columns">
+    <div class="columns" data-htmlstate="blog">
+        <div class="l-case">
+            <div class="row">
+                <div class="span3">
+                    <div class="post post_empty">
+                        <h2 class="post__ttl">from the blog</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis laoreet laoreet leo at dictum. </p>
+                    </div>
+                </div>
+                <div class="span3">
+                    <div class="post">
+                        <div class="post__img"><img src="img/post4.jpg" alt=""/></div>
+                        <div class="span8 post__body">
+                            <div class="post__ttl">Krzysztof Nowak</div>
+                            <div class="post__date">14th April</div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis laoreet laoreet leo at dictum. Sed egestas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="span3">
+                    <div class="post">
+                        <div class="post__img"><img src="img/post2.jpg" alt=""/></div>
+                        <div class="span8 post__body">
+                            <div class="post__ttl">Krzysztof Nowak</div>
+                            <div class="post__date">9th April</div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis laoreet laoreet leo at dictum. Sed egestas dignissim tincidunt.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="span3">
+                    <div class="post">
+                        <div class="post__img"><img src="img/post3.jpg" alt=""/></div>
+                        <div class="span8 post__body">
+                            <div class="post__ttl">Krzysztof Nowak</div>
+                            <div class="post__date">23rd march</div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis laoreet laoreet leo at dictum. Sed egestas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="columns" data-htmlstate="normal">
         <div class="l-case">
             <div class="row">
                 <div class="span6">
